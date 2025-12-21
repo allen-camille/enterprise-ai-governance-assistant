@@ -1,6 +1,6 @@
 # Enterprise AI Incident & Governance Assistant
 
-A Python-based incident analysis assistant designed to support **SOC analysts, security teams and governance functions** with structured incident triage, root cause analysis and regulatory mapping.
+A Python-based incident analysis assistant designed to support SOC analysts, security teams and governance functions with structured incident triage, root cause analysis and regulatory mapping.
 
 The project simulates AI-assisted reasoning using deterministic logic and is built to be safely extended with LLMs (e.g. Azure OpenAI) in later stages.
 
@@ -10,12 +10,12 @@ The project simulates AI-assisted reasoning using deterministic logic and is bui
 
 The assistant helps transform unstructured incident descriptions into:
 
-- Clear incident classification
-- Severity assessment
-- Root Cause Hypothesis (RCA)
-- Evidence collection checklist
-- Time-based triage actions
-- Mapping to regulatory and governance frameworks
+- Clear incident classification  
+- Severity assessment  
+- Root Cause Hypothesis (RCA)  
+- Evidence collection checklist  
+- Time-based triage actions  
+- Mapping to regulatory and governance frameworks  
 
 This mirrors real-world workflows used in **incident response, SOC operations and public-sector security governance**.
 
@@ -48,5 +48,15 @@ Given a free-text incident description, the assistant produces:
 
 ---
 
-## 🏗 Project Structure
+## 📂 Project Structure
 
+```text
+enterprise-ai-governance-assistant/
+│
+├── main.py                # Single entrypoint
+├── src/
+│   ├── __init__.py
+│   ├── incident_analysis.py   # Core analysis & governance logic
+│   └── runner.py              # CLI workflow & output formatting
+│
+└── README.md
