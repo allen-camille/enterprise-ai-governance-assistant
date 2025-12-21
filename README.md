@@ -38,3 +38,16 @@ This project demonstrates competence in:
 
 ## 🏗️ Project Structure
 
+## 🚀 How to Run (Local)
+
+1. Clone the repository
+2. Create and activate a virtual environment
+3. Install dependencies
+4. Create a `.env` file with required API keys
+5. Run the assistant
+
+Example:
+
+```bash
+python main.py
+
