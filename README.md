@@ -1,53 +1,52 @@
-# Enterprise AI Governance Assistant (SPÅR C)
+# Enterprise AI Incident & Governance Assistant
 
-**Governance-first AI decision support for incident and risk handling in regulated environments.**
+A Python-based incident analysis assistant designed to support **SOC analysts, security teams and governance functions** with structured incident triage, root cause analysis and regulatory mapping.
 
-This project is a portfolio-grade implementation of **SPÅR C** – focusing on how AI assistants can be designed for **enterprise use**, with emphasis on:
-- information security
-- regulatory compliance
-- auditability
-- human-in-the-loop decision support
+The project simulates AI-assisted reasoning using deterministic logic and is built to be safely extended with LLMs (e.g. Azure OpenAI) in later stages.
 
 ---
 
 ## 🎯 Purpose
 
-The assistant is designed to support security and governance roles by:
-- structuring incomplete incident information
-- producing a clear, time-bound **status picture**
-- separating **facts, uncertainties, and open questions**
-- enabling controlled “freeze” states for decision-making
+The assistant helps transform unstructured incident descriptions into:
 
-It does **not** automate decisions.  
-It **supports human judgement**.
+- Clear incident classification
+- Severity assessment
+- Root Cause Hypothesis (RCA)
+- Evidence collection checklist
+- Time-based triage actions
+- Mapping to regulatory and governance frameworks
 
----
-
-## 🧭 SPÅR C – What This Demonstrates
-
-This project demonstrates competence in:
-
-- AI governance & risk awareness  
-- Incident handling logic (ISO 27001 / NIS2 aligned)
-- Prompt design for regulated contexts
-- Versioned status reporting
-- Secure handling of secrets (env-based configuration)
-- Enterprise-ready architecture thinking
+This mirrors real-world workflows used in **incident response, SOC operations and public-sector security governance**.
 
 ---
 
-## 🏗️ Project Structure
+## 🧠 What the Assistant Does
 
-## 🚀 How to Run (Local)
+Given a free-text incident description, the assistant produces:
 
-1. Clone the repository
-2. Create and activate a virtual environment
-3. Install dependencies
-4. Create a `.env` file with required API keys
-5. Run the assistant
+### ✔ Incident Analysis
+- Category (e.g. Malware infection, Performance degradation)
+- Severity (Low / Medium / High)
+- Likely cause
 
-Example:
+### ✔ Root Cause Analysis (RCA)
+- Hypothesis describing how the incident likely occurred
 
-```bash
-python main.py
+### ✔ Evidence Checklist
+- Logs, artifacts and data needed to confirm or disprove the hypothesis
+
+### ✔ Triage Timeline
+- **0–30 minutes** (containment & preservation)
+- **1–4 hours** (scoping & investigation)
+- **24–72 hours** (eradication, recovery, lessons learned)
+
+### ✔ Governance & Compliance Mapping
+- **MSB** (Swedish information security incident classification)
+- **NIS2** relevance assessment
+- **ISO/IEC 27001:2022** control references
+
+---
+
+## 🏗 Project Structure
 
