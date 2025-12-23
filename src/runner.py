@@ -1,44 +1,41 @@
-from src.incident_analysis import analyze_incident
+from __future__ import annotations
+
+from .incident_analysis import analyze_incident
+from .output_formatter import format_incident_output
+
+
+BANNER = "=== Incident Analysis Assistant (SPÅR C) ==="
+
+SCOPE_NOTICE = (
+    "Scope & guarantees:\n"
+    "- This tool supports a human analyst with structured incident analysis.\n"
+    "- It does NOT perform detection/monitoring, access live systems, or take response actions.\n"
+    "- Output is deterministic based on the provided text input.\n"
+)
 
 
 def run() -> None:
-    print("=== Incident Analysis Assistant ===\n")
+    print(BANNER)
+    print()
+    print(SCOPE_NOTICE)
 
-    description = input("Describe the incident:\n> ")
+    while True:
+        description = input("Describe the incident (or type 'q' to quit):\n> ").strip()
+        if not description:
+            print("\nPlease provide a short incident description.\n")
+            continue
 
-    analysis = analyze_incident(description)
+        if description.lower() in {"q", "quit", "exit"}:
+            print("\nExiting. Stay safe.\n")
+            return
 
-    print("\n--- Analysis Result ---")
-    print(f"Category: {analysis.category}")
-    print(f"Severity: {analysis.severity}")
-    print(f"Likely cause: {analysis.likely_cause}")
+        analysis = analyze_incident(description)
 
-    print("\n--- Root Cause Hypothesis (RCA) ---")
-    print(analysis.root_cause_hypothesis)
+        # All output formatting is handled centrally
+        format_incident_output(analysis)
 
-    print("\n--- Framework Mapping ---")
-    print(f"MSB classification: {analysis.msb_classification}")
-    print(f"NIS2 relevance: {analysis.nis2_relevance}")
-    print(f"ISO/IEC 27001 reference: {analysis.iso27001_reference}")
+        print("\n---\n")
 
-    print("\nRecommended actions:")
-    for action in analysis.recommended_actions:
-        print(f"- {action}")
 
-    print("\n--- Evidence to Collect ---")
-    for item in analysis.evidence_to_collect:
-        print(f"- {item}")
-
-    print("\n--- Triage Timeline ---")
-
-    print("\n0–30 min:")
-    for item in analysis.triage_0_30m:
-        print(f"- {item}")
-
-    print("\n1–4 h:")
-    for item in analysis.triage_1_4h:
-        print(f"- {item}")
-
-    print("\n24–72 h:")
-    for item in analysis.triage_24_72h:
-        print(f"- {item}")
+if __name__ == "__main__":
+    run()
