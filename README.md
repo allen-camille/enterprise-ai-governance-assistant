@@ -195,6 +195,13 @@ It is especially relevant for:
 This section demonstrates how regulated organizations can use the assistant in real workflows.
 The goal is not automation — it is **structured, auditable decision support**.
 
+### ▶️ Quick Demo (Local)
+
+Run as a Python package:
+
+```bash
+python -m src
+
 ---
 
 ### 🧩 Use-case 1: SOC Analyst – Early Incident Triage (A9.1)
