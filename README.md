@@ -196,6 +196,63 @@ At this stage:
    python -m src
 
   
+### 🏛️ Use-case 3: Myndighet / offentlig sektor – styrning & tillsyn
+
+
+**Scenario:**  
+En kommun eller statlig myndighet mottar information om en misstänkt informationssäkerhetsincident.  
+Informationen är fragmenterad och kommer från verksamheten, IT eller extern part.
+
+Organisationen måste snabbt:
+- skapa en korrekt nulägesbild
+- avgöra allvarlighetsgrad
+- avgöra om incidenten är rapporteringspliktig
+- dokumentera beslutsunderlag för ledning och tillsyn
+
+---
+
+**Hur assistenten används:**
+
+1. En informationssäkerhetssamordnare eller handläggare matar in tillgänglig incidentinformation.
+2. Assistenten strukturerar informationen till:
+   - incidentkategori
+   - preliminär påverkan
+   - sannolik orsak
+   - identifierade osäkerheter
+3. Assistenten pekar ut:
+   - vilka uppgifter som saknas
+   - vilken dokumentation som krävs
+   - vilka roller som behöver involveras
+4. Resultatet används som:
+   - underlag för intern rapportering
+   - beslutsstöd till ledning
+   - spårbar dokumentation vid eventuell extern granskning
+
+---
+
+**Värde för organisationen:**
+
+- Förbättrad kvalitet i tidig incidentbedömning
+- Minskad risk för felaktig eller sen rapportering
+- Tydligare ansvarsfördelning
+- Stärkt spårbarhet och revisionsbarhet
+- Enhetligt arbetssätt oavsett erfarenhetsnivå hos handläggare
+
+---
+
+**Relevanta regelverk & krav:**
+
+- NIS2 (incidentbedömning och rapportering)
+- ISO/IEC 27001 – A.16 (incidenthantering)
+- Offentlighets- och arkivkrav
+- MSB:s riktlinjer för informationssäkerhet
+
+---
+
+**Sammanfattning:**  
+Assistenten fungerar som ett **strukturerande stöd** mellan verksamhet, IT, säkerhet och ledning.  
+Den stärker beslutsfattande utan att ersätta mänskligt ansvar eller juridisk bedömning.
+
 
 ---
 
