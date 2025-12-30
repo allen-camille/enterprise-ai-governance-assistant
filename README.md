@@ -155,6 +155,41 @@ It is especially relevant for organizations operating under:
 
 ---
 
+## 👥 Who This Is For
+
+This assistant is designed for organizations that need to improve
+**incident quality, governance, and decision support** without introducing
+uncontrolled or opaque AI systems.
+
+It is especially relevant for:
+
+### 🛡️ SOC & Incident Response Teams
+- Support structured early-phase triage
+- Improve consistency between analysts
+- Reduce ambiguity in incident documentation
+- Provide a shared analytical baseline during investigations
+
+### 🧭 Information Security & GRC Functions
+- Support ISO/IEC 27001-aligned incident handling
+- Improve audit readiness and traceability
+- Provide structured decision support without automation risk
+- Strengthen governance over incident assessments
+
+### 🏛️ Public Sector & Regulated Organizations
+- Align incident handling with MSB, NIS2, and regulatory expectations
+- Support human accountability and controlled decision-making
+- Demonstrate responsible use of AI in compliance-driven environments
+
+### 👨‍💼 Security Leadership (CISO / IT Management)
+- Gain clearer, more consistent incident reporting
+- Reduce reliance on individual expertise
+- Establish safe foundations for future AI-assisted security tooling
+- Bridge the gap between technical analysis and governance oversight
+
+
+
+---
+
 ## 🧪 Demonstration & Use-cases (A9)
 
 This section demonstrates how regulated organizations can use the assistant in real workflows.
