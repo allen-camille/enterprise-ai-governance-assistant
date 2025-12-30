@@ -1,5 +1,6 @@
 # Enterprise AI Incident & Governance Assistant
 
+
 A Python-based incident analysis assistant designed to support **SOC analysts, security teams, and governance functions** with structured incident triage, root cause analysis, and regulatory mapping.
 
 The project simulates **AI-assisted analytical reasoning** using deterministic, explainable logic and is intentionally designed to be **safely extendable with LLMs** (e.g. Azure OpenAI) in later phases.
@@ -152,7 +153,6 @@ It is especially relevant for organizations operating under:
 - Public-sector governance requirements
 - Critical infrastructure or other regulated industries
 
-
 ---
 
 ## 🧪 Demonstration & Use-cases (A9)
@@ -160,12 +160,20 @@ It is especially relevant for organizations operating under:
 This section demonstrates how regulated organizations can use the assistant in real workflows.
 The goal is not automation — it is **structured, auditable decision support**.
 
-### ✅ Quick Demo (Local)
+---
 
-Run as a package:
+### 🧩 Use-case 1: SOC Analyst – Early Incident Triage (A9.1)
 
-```bash
-python -m src
+**Scenario**  
+A SOC analyst receives an early alert or user report indicating suspicious behavior
+(e.g. slow workstation, unknown processes, potential malware indicators).
+
+**How the assistant is used**
+
+1. The analyst runs the tool locally:
+   ```bash
+   python -m src
+
 
   
 
@@ -187,7 +195,7 @@ This approach demonstrates how AI-assisted tools can be introduced
 
 ## 📂 Project Structure
 
-```text
+
 enterprise-ai-governance-assistant/
 │
 ├── main.py                     # Single entrypoint
