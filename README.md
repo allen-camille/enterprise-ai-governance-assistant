@@ -253,6 +253,49 @@ Organisationen måste snabbt:
 Assistenten fungerar som ett **strukturerande stöd** mellan verksamhet, IT, säkerhet och ledning.  
 Den stärker beslutsfattande utan att ersätta mänskligt ansvar eller juridisk bedömning.
 
+## Use-case 4: Public-sector / Regulated Organization (Governance & Audit Readiness)
+
+### Scenario
+A municipality/agency receives an incident report from a business unit:
+> “A shared file server is behaving strangely. Some users report missing access and unusual activity. We are unsure if this is malware or a misconfiguration.”
+
+The organization operates under:
+- ISO/IEC 27001 requirements (structured incident handling)
+- NIS2 expectations (risk-based management and reporting readiness)
+- Public-sector governance expectations (traceability, documentation)
+
+### How the Assistant Is Used
+The analyst enters the free-text description into the tool.
+
+The assistant produces a governance-aligned output that:
+- Creates a **repeatable incident record** from uncertain input
+- Separates **facts vs assumptions vs unknowns**
+- Lists **evidence needed** to reduce uncertainty
+- Defines **time-bound next steps** (triage timeline)
+- Provides **framework mapping** to support compliance reporting
+
+### Output Value (What Improves)
+- **Higher documentation quality** early in the incident (before details are lost)
+- **Clear decision-support snapshot** for managers and stakeholders
+- **Audit-ready structure** (what was known, what was done, what remains)
+- **Reduced ambiguity** in communication across IT, security, and business units
+- **Faster alignment** on scope, severity, and escalation
+
+### Governance Benefit
+This use-case demonstrates governance-first value:
+- Consistent structure across incidents (even when input is messy)
+- Traceability for post-incident review and audits
+- A safe, human-controlled way to introduce AI-style reasoning into regulated work
+
+### Example “Stakeholder-ready Summary” (what the analyst can forward)
+- **Current status:** Preliminary incident classification completed (pending evidence)
+- **Impact:** Potential availability/integrity impact for shared resources
+- **Next actions (0–30 min):** isolate affected scope, preserve logs, confirm user impact
+- **Evidence needed:** authentication logs, file access logs, endpoint telemetry, change history
+- **Compliance mapping:** ISO/IEC 27001 incident handling controls + NIS2 relevance check
+
+> The assistant does not decide or act — it supports consistent, auditable human decision-making.
+
 
 ---
 
