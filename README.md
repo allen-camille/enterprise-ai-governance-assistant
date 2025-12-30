@@ -190,6 +190,20 @@ It is especially relevant for:
 
 ---
 
+## Why This Matters to Organizations
+
+Many organizations want to explore AI in security and governance,
+but lack the internal maturity to do so safely.
+
+This project demonstrates:
+- How AI-style reasoning can be introduced **without automation risk**
+- How governance, compliance and human accountability remain intact
+- How organizations can improve decision quality without replacing people
+
+
+---
+
+
 ## 🧪 Demonstration & Use-cases (A9)
 
 This section demonstrates how regulated organizations can use the assistant in real workflows.
