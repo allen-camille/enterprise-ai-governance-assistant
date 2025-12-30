@@ -297,6 +297,77 @@ This use-case demonstrates governance-first value:
 > The assistant does not decide or act — it supports consistent, auditable human decision-making.
 
 
+### 🏛 Use-case 4: Public Sector / Municipality Incident Assessment
+
+**Context:**  
+A municipality or public-sector organization experiences a potential information security incident involving citizen data, internal systems, or critical services.
+
+**Typical challenges:**
+- Fragmented or incomplete initial information
+- High regulatory pressure (GDPR, NIS2, MSB)
+- Need for clear documentation early in the process
+- Limited technical security resources
+
+**How the assistant is used:**
+1. An analyst or information security coordinator inputs the initial incident description.
+2. The assistant structures the information into:
+   - Incident classification
+   - Severity assessment
+   - Root Cause Analysis hypothesis
+   - Evidence checklist
+   - Time-based triage actions
+3. The output is mapped to:
+   - MSB incident categories
+   - NIS2 relevance
+   - ISO/IEC 27001 incident handling controls
+
+**Organizational value:**
+- Improves consistency in how incidents are assessed across departments
+- Reduces ambiguity in early incident documentation
+- Supports non-technical staff with structured analytical reasoning
+- Strengthens compliance, audit readiness, and reporting quality
+- Enables faster escalation to management with a clear situation picture
+
+**Why this matters:**  
+Public-sector organizations often lack deep in-house security expertise.  
+This assistant provides **structured, governance-aligned support** without introducing operational or compliance risk.
+
+
+### 🧑‍💼 Use-case 5: CISO / Management Decision Support
+
+**Context:**  
+Senior management or a CISO needs a clear, reliable overview of an ongoing or suspected incident to decide on escalation, communication, and resource allocation.
+
+**Typical challenges:**
+- Technical reports are often inconsistent or overly detailed
+- Management needs clarity, not raw logs
+- Decisions must be defensible during audits or external review
+- High risk of miscommunication during early incident stages
+
+**How the assistant is used:**
+1. Analysts run the assistant during early incident handling.
+2. The structured output is shared with management, showing:
+   - What is known
+   - What is uncertain
+   - What evidence is missing
+   - What actions are recommended in defined time windows
+3. Governance mappings provide immediate context for:
+   - Regulatory impact
+   - Compliance relevance
+   - Reporting obligations
+
+**Organizational value:**
+- Translates technical uncertainty into management-friendly structure
+- Supports defensible, traceable decision-making
+- Improves communication between analysts and leadership
+- Reduces risk of overreaction or delayed response
+- Strengthens trust between security teams and executives
+
+**Why this matters:**  
+This positions the assistant as a **decision-support companion**, not a technical tool —  
+exactly what leadership roles need in regulated environments.
+
+
 ---
 
 ## 🧱 Architectural Philosophy
