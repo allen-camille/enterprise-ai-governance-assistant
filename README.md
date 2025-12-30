@@ -152,6 +152,23 @@ It is especially relevant for organizations operating under:
 - Public-sector governance requirements
 - Critical infrastructure or other regulated industries
 
+
+---
+
+## 🧪 Demonstration & Use-cases (A9)
+
+This section demonstrates how regulated organizations can use the assistant in real workflows.
+The goal is not automation — it is **structured, auditable decision support**.
+
+### ✅ Quick Demo (Local)
+
+Run as a package:
+
+```bash
+python -m src
+
+  
+
 ---
 
 ## 🧱 Architectural Philosophy
