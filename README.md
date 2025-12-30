@@ -174,6 +174,26 @@ A SOC analyst receives an early alert or user report indicating suspicious behav
    ```bash
    python -m src
 
+### 🔍 Use-case 1: SOC / Incident Response Team
+
+#### Scenario
+A SOC analyst receives an early incident report from a user or monitoring function, for example:
+
+- “A workstation is behaving unusually slow”
+- “Unknown background processes observed”
+- “Possible malware or unauthorized activity suspected”
+
+At this stage:
+- information is incomplete
+- impact is unclear
+- no confirmed indicators exist yet
+
+#### How the Assistant Is Used
+
+1. The analyst runs the assistant locally:
+
+   ```bash
+   python -m src
 
   
 
